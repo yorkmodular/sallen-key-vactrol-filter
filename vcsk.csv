@@ -1,0 +1,24 @@
+Qty,Value,Device,Package,Parts,Description
+4,0.1u,C-EU025-025X050,C025-025X050,"C5, C6, C8, C9","CAPACITOR, European symbol – decoupling/bypass caps"
+1,0.1u,C-EU050-025X075,C050-025X075,C4,"CAPACITOR, European symbol – filter capacitor"
+2,10u,CPOL-EUE2.5-5,"E2,5-5","C1, C2","POLARIZED CAPACITOR, European symbol"
+1,100k,9MM_SNAP-IN_POT_CHASSIS,9MM_SNAP-IN_POT,VR1,"9mm vertical snap-in pot, Alpha / Panasonic style, with a connection to the metal chassis for grounding"
+2,1N4148,DIODE-D-2.5,D-2.5,"D1, D2",DIODE
+1,1k,R-EU_0207/2V,0207/2V,R3,"RESISTOR, European symbol"
+2,200k,R-EU_0207/2V,0207/2V,"R4(**), R5(**)","RESISTOR, European symbol"
+1,220n,C-EU050-025X075,C050-025X075,C7,"CAPACITOR, European symbol"
+1,330p,C-EU025-025X050,C025-025X050,C3(*),"CAPACITOR, European symbol"
+1,470R,R-EU_0207/2V,0207/2V,R7,"RESISTOR, European symbol"
+1,EURO_POWER_LOCK,EURO_POWER_LOCK,EURO_PWR_HEADER_LOCK,LOCK1,
+2,FERRITE,R-EU_0207/2V,0207/2V,"R1, R2","RESISTOR, European symbol"
+3,THONKICONNNEW,THONKICONNNEW,WQP-PJ301M-12_JACK,"CV, IN, OUT",3.5mm socket for Eurorack modular synths
+1,TL072P,TL072P,DIL08,IC1,OP AMP
+2,VACTROL_4PIN,VACTROL_4PIN,VACTROL_4PIN_VTL5C,"LDR1, LDR2",4 Pin Vactrol Resistive Photocoupler
+,,,,,
+,,,,,
+,,,,,(**) R4 and R5 are optional and their effect will depend on the off resistance of your vactrols 
+,,,,,"If your vactrols have a high off-resistance (ie. several M) then use 100-470k, depending on your"
+,,,,,Preference – 200k is a good compromise.
+,,,,,
+,,,,,(*) C3 affects the main ‘character’ of the filter – smaller values will yield harsher resonance.
+,,,,,"Conversely, increasing the value of C3 will ‘muffle’ the filter – 330p gives nicely acidic vibes."
