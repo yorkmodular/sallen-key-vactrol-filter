@@ -1,5 +1,9 @@
 ### Sallen-Key Vactrol LPF
 
+**This module is now discontinued - there will be no more made unless there is sufficient demand to justify a new run of boards and panels.**
+
+**Information provided here is provided under the terms of the Creative Commons License Attribution-ShareAlike 4.0 International**
+
 A VCF finally hits the line-up
 
 Filters don't need to be massively complex to sound good, and it's amazing the sort of noises you can get out of an op-amp and a bunch of passive components.
@@ -13,4 +17,4 @@ filter capacitor (C3) and fiddling with values until you find a combination that
 
 If you bought the full kit, you'll have received 'sensible' values for the limiting resistors (470k) and filter cap (330pF) - these values aren't set in stone; feel free to experiment. The two resistors can be considered optional (ie. don't fit them if you don't want to) but the capacitor is essential - 330pF is the value I normally use for pre-builts; you can go larger if you wish but keep in mind that if you overdo it you'll end up with a very muffled sound. Along similar lines, reducing the value of C3 will make the filter sound 'sharper' - going lower than around 47pF is not recommended, because it'll sound terrible.
 
-You can hear a quick and dirty sample of the finished article right here: https://soundcloud.com/yorkmodular/vcsk-sallenkey-low-pass-vcf-sample
+If you wish to get your own boards fabbed, you'll find what you need in the `gerbers` directory.
